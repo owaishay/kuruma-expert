@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuruma Experts - Japanese Car Import Partner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top bg-white border-bottom border-light">
+        <div class="container-xl">
+            <button class="navbar-toggler d-md-none" type="button" id="mobileMenuBtn">
+                <i class=" fas fa-bars mobile-size"></i>
+            </button>
+            
+            <!-- Logo -->
+            <div class="navbar-brand">
+                <a href="#">
+                    <img src="/assets/kuruma expert logo png.png" alt="Kuruma Experts Logo">
+                    
+                </a>
+            </div>
+
+            <!-- Desktop Nav Links -->
+            <div class="nav-links d-none d-md-flex gap-4 flex-grow-1 justify-content-center">
+                <a href="#" class="nav-link">HOME</a>
+                <a href="#import-process" class="nav-link">IMPORT PROCESS</a>
+                <a href="#auction" class="nav-link">AUCTION</a>
+                <a href="#process" class="nav-link">PROCESS</a>
+                <a href="#about" class="nav-link">ABOUT US</a>
+            </div>
+
+            
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu d-md-none border-top border-light p-3" id="mobileMenu" style="display: none;">
+            <a href="#" class="d-block nav-link mb-3">HOME</a>
+            <a href="#import-process" class="d-block nav-link mb-3">IMPORT PROCESS</a>
+            <a href="#auction" class="d-block nav-link mb-3">AUCTION</a>
+            <a href="#process" class="d-block nav-link mb-3">PROCESS</a>
+            <a href="#about" class="d-block nav-link mb-3">ABOUT US</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+            <img id="desktopbanner" src="/assets/banner.png" alt="Hero Image">
+            <img id="mobileBanner" src="/assets/mobile-banner.png" alt="">
+    </section>
+
+    <!-- Feature Icons Section - Mobile -->
+    <section class="features-mobile d-md-none">
+        <div class="row g-3 text-center">
+            <div class="col-6 col-sm-3">
+                <i class="fas fa-truck feature-icon"></i>
+                <p class="feature-text">Trade Inspector Experienced &</p>
+            </div>
+            <div class="col-6 col-sm-3">
+                <i class="fas fa-file feature-icon"></i>
+                <p class="feature-text">Process Step</p>
+            </div>
+            <div class="col-6 col-sm-3">
+                <i class="fas fa-shield feature-icon"></i>
+                <p class="feature-text">Customer Focused</p>
+            </div>
+            <div class="col-6 col-sm-3">
+                <i class="fas fa-heart feature-icon"></i>
+                <p class="feature-text">Your Delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container-xl">
+            <div class="stats-container">
+                <div class="row g-4 g-md-5">
+                    <div class="col-6 col-md-3 stat-item" id="import-process">
+                        <i class="fas fa-truck stat-icon"></i>
+                        <div class="stat-number">1,200+</div>
+                        <div class="stat-label">Cars Imported</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item">
+                        <i class="fas fa-heart stat-icon"></i>
+                        <div class="stat-number">850+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item">
+                        <i class="fas fa-map-pin stat-icon"></i>
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Countries Served</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item">
+                        <i class="fas fa-shield stat-icon"></i>
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Customer Satisfaction</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container-xl">
+            <div class="row g-4 g-md-6 align-items-center">
+                <div class="col-12 col-md-6 order-md-2">
+                    <div class="about-image-placeholder" >
+                       <img id="import-partner" src="/assets/import-partner.png" alt="Import Partner">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <div class="about-label">ABOUT KURUMA EXPERTS</div>
+                    <h2 class="about-title">Your Trusted Japanese Car Import Partner</h2>
+                    <p class="about-text">Kuruma Experts is a UK-based Japanese car importer specializing in high-quality vehicles sourced directly from Japan. We handle everything - from auction to delivery.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-shield"></i> Direct access to Japanese auctions</li>
+                        <li><i class="fas fa-shield"></i> Competitive pricing & genuine vehicles</li>
+                        <li><i class="fas fa-shield"></i> Professional shipping & customs support</li>
+                        <li id="auction"><i class="fas fa-shield"></i> Door-to-door delivery across the UK</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" >
+        <div class="container-xl">
+            <div class="row g-4 g-md-5">
+                <!-- Service Card 1 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="/assets/auction.jpeg" alt="JAPAN AUCTION BUYING">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-number">01</div>
+                            <h3 class="service-title">JAPAN AUCTION BUYING</h3>
+                            <p class="service-text">We source quality cars from top Japanese auctions like USS, JAA, Raize, and more.</p>
+                            <ul class="service-list">
+                                <li>✓ Verified Auction Provided</li>
+                                <li>✓ Best Market Prices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="/assets/shipping-conatiner.jpg" alt="CONTAINER SHIPPING">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-number">02</div>
+                            <h3 class="service-title">CONTAINER SHIPPING</h3>
+                            <p class="service-text">Your car is shipped safely in a secure container to major UK ports.</p>
+                            <ul class="service-list">
+                                <li>✓ LCL & 40ft Containers</li>
+                                <li>✓ Fully Insured Shipping</li>
+                                <li>✓ Regular Shipping Updates</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="/assets/uk-port.jpeg" alt="UK PORT ARRIVAL & CUSTOMS">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-number">03</div>
+                            <h3 class="service-title">UK PORT ARRIVAL & CUSTOMS</h3>
+                            <p class="service-text">We handle UK port operations and smooth customs clearance.</p>
+                            <ul class="service-list">
+                                <li>✓ All Duties & VAT Managed</li>
+                                <li>✓ Customs Clearance Included</li>
+                                <li>✓ HMRC Compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="/assets/car-delivery.jpg" alt="DELIVERY TO YOUR DOOR">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-number">04</div>
+                            <h3 class="service-title">DELIVERY TO YOUR DOOR</h3>
+                            <p class="service-text">We deliver your car safely to your preferred location in the UK.</p>
+                            <ul class="service-list">
+                                <li>✓ Nationwide Delivery</li>
+                                <li>✓ Door-to-Door Service</li>
+                                <li id="process">✓ Expert Drivers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container-xl">
+            <h2 class="process-title">THE KURUMA EXPERTS PROCESS</h2>
+            <div class="process-container">
+                <div class="process-step">
+                    <div class="process-circle">1</div>
+                    <h3 class="process-name">YOU CHOOSE</h3>
+                    <p class="process-desc">Tell us your dream car and requirements.</p>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="process-circle">2</div>
+                    <h3 class="process-name">WE BUY</h3>
+                    <p class="process-desc">We buy from Japanese auctions on your behalf.</p>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="process-circle">3</div>
+                    <h3 class="process-name">WE SHIP</h3>
+                    <p class="process-desc">Your car is shipped in a secure container.</p>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="process-circle">4</div>
+                    <h3 class="process-name">UK CLEARANCE</h3>
+                    <p class="process-desc">We handle customs & port clearance.</p>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="process-circle">5</div>
+                    <h3 class="process-name">WE DELIVER</h3>
+                    <p class="process-desc">Delivered safely to your doorstep in the UK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Banner Section -->
+    <section class="bottom-banner-section" id="about">
+        <div class="placeholder-bg-large">
+            <img id="desktopLowerBanner" src="/assets/lower image.png" alt="">
+            <img id="MobileLowerBanner" src="/assets/mobile-car-lower.png" alt="Bottom Banner">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="row g-4 g-md-6 mb-4 mb-md-6">
+                <!-- Column 1 - Logo & Social -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-logo-placeholder">
+                       <a href="#"><img src="/assets/kuruma expert logo png.png" alt="Kuruma Expert Logo"></a> 
+                    </div>
+                    <p class="footer-text">Japanese car importer based in the UK. Bringing quality, from Japan, to you.</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/819032778605?text=Hello%20Kuruma%20Experts,%20I%20am%20interested%20in%20importing%20a%20car.%20Please%20share%20details." class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/kurumaexperts" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://web.facebook.com/Kurumaexperts" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@kurumaexperts.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2 - Quick Links -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <button class="footer-toggle d-md-none w-100 text-start d-flex justify-content-between align-items-center" type="button" data-section="quicklinks">
+                        <span class="footer-title">QUICK LINKS</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <h3 class="footer-title d-none d-md-block">QUICK LINKS</h3>
+                    <ul class="footer-menu" id="quicklinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#process">Services</a></li>
+                        <li><a href="#auction">Auction</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - Services -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <button class="footer-toggle d-md-none w-100 text-start d-flex justify-content-between align-items-center" type="button" data-section="services">
+                        <span class="footer-title">OUR SERVICES</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <h3 class="footer-title d-none d-md-block">OUR SERVICES</h3>
+                    <ul class="footer-menu" id="services">
+                        <li><a href="#">Auction Buying</a></li>
+                        <li><a href="#">Container Shipping</a></li>
+                        <li><a href="#">Delivery to Your Door</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 - Contact Info -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <button class="footer-toggle d-md-none w-100 text-start d-flex justify-content-between align-items-center" type="button" data-section="contact">
+                        <span class="footer-title" id="">CONTACT US</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <h3 class="footer-title d-none d-md-block">CONTACT US</h3>
+                    <div class="footer-contact" id="contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+81 90-3277-8605</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@kurumaexperts.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-pin"></i>
+                            <span>103, Ishiguro B Building, 124 Surplus 3, Kakeya, Higashijmachi, Iwakura City, Aichi Prefecture.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Kuruma Experts. All Rights Reserved.</p>
+                <div class="footer-tagline">
+                    <i class="fas fa-map-pin"></i>
+                    <span>Driven by Trust. Delivered with Passion.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
